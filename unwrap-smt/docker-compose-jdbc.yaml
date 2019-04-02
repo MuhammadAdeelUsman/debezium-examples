@@ -46,7 +46,7 @@ services:
      - GROUP_ID=1
      - CONFIG_STORAGE_TOPIC=my_connect_configs
      - OFFSET_STORAGE_TOPIC=my_connect_offsets
-       ksql-server:
+  ksql-server:
     image: confluentinc/cp-ksql-server:5.0.1
     hostname: ksql-server
     depends_on:
