@@ -50,7 +50,6 @@ services:
      - mysql
      - postgres
      - elastic
-     - kibana
     environment:
      - BOOTSTRAP_SERVERS=kafka:9092
      - GROUP_ID=1
